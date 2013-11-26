@@ -51,8 +51,6 @@ function handleText(textNode)
         v = v.replace(/\belectric\b/g, "atomic");
         v = v.replace(/\bElectric\b/g, "Atomic");
         v = v.replace(/\bSenator\b/g, "Elf-Lord");
-        v = v.replace(/\bcar\b/g, "cat");
-        v = v.replace(/\bCar\b/g, "Cat");
         v = v.replace(/\belection\b/g, "eating contest");
         v = v.replace(/\bElection\b/g, "Eating contest");
         v = v.replace(/\belections\b/g, "eating contests");
